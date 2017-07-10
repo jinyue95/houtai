@@ -1,0 +1,233 @@
+.mains {
+  padding-left: 0 !important;
+  margin-top: 15px; }
+
+.input-file label {
+  width: 100%;
+  min-height: 300px;
+  border: 1px solid #ccc;
+  background: #eee url(../img/3.png) no-repeat center center; }
+
+.play {
+  margin-top: 15px; }
+
+.nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.42857;
+  border-radius: 4px 4px 0 0; }
+
+.input-file input {
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+
+.timeline-wrap {
+  border-left: 2px solid #aaa;
+  position: relative;
+  padding: 30px 21px 50px 0;
+  margin: 30px 0; }
+
+.timeline-wrap span {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border: 2px solid #aaa;
+  border-radius: 100%; }
+
+.timeline-wrap span.top {
+  left: -6px;
+  top: -5px; }
+
+.timeline-wrap span.bottom {
+  left: -6px;
+  bottom: -5px; }
+
+.time-line li {
+  position: relative; }
+
+.time-line li:after {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #aaa;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  left: -6px;
+  top: 20px; }
+
+.time-line > li:hover:after {
+  background-color: dodgerblue; }
+
+.time-line li.active:after {
+  background: dodgerblue; }
+
+.scrollspy-example {
+  height: 300px;
+  overflow-y: auto;
+  position: relative; }
+
+.tab-content hr {
+  margin-bottom: 10px; }
+
+.tab-content p {
+  line-height: 30px; }
+
+.datas p {
+  border-bottom: 1px solid #ccc; }
+  .datas p span {
+    float: right;
+    margin-right: 10px;
+    color: #ccc; }
+    .datas p span b {
+      display: inline-block;
+      margin-left: 20px; }
+
+.textarea {
+  padding-bottom: 30px;
+  padding-top: 30px; }
+
+.textarea textarea {
+  border: 1px solid #01b0b9;
+  height: 78px;
+  width: 100%; }
+
+.btn {
+  margin-bottom: 30px;
+  background: #01b0b9;
+  position: absolute;
+  right: 10px; }
+
+.row-h4 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 0; }
+
+.bor {
+  border: 1px solid #979797;
+  margin-bottom: 30px; }
+  .bor img {
+    width: 100%; }
+  .bor h4, .bor span {
+    padding-left: 15px;
+    box-sizing: border-box;
+    line-height: 30px;
+    font-size: 14px; }
+  .bor span {
+    color: #999; }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff; }
+
+.navbar-inverse .navbar-brand {
+  color: #fff; }
+
+.navbar-inverse {
+  border-color: #fff;
+  background-color: #fff; }
+
+.navbar1 {
+  background: #fff;
+  border: none; }
+
+.navbar-brand {
+  color: #01b0b9;
+  padding: 15px 80px; }
+
+.onep {
+  padding: 10px 90px; }
+
+.breadcrumb {
+  margin-bottom: 0;
+  padding-top: 10px; }
+
+.hights-color {
+  background: #01b0b9;
+  border-radius: 5px; }
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #a8a3a3; }
+
+.up-up:after {
+  margin-left: 5px;
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 7px solid transparent;
+  border-bottom-color: #01b0b9; }
+
+.down-down:after {
+  margin-left: 5px;
+  content: "";
+  position: absolute;
+  bottom: 9px;
+  width: 0;
+  height: 0;
+  border: 7px solid transparent;
+  border-top-color: #01b0b9; }
+
+.nav li a {
+  font-size: 18px; }
+
+.navbar-header .navbar-brand {
+  font-size: 26px;
+  color: #01b0b9 !important; }
+
+.breadcrumb li a {
+  font-size: 14px; }
+
+.birth {
+  color: #01b0b9; }
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  cursor: default;
+  color: #555;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+  background-color: #fff; }
+
+.bor {
+  position: relative; }
+
+.triangle-topleft1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 100px solid #d45858;
+  border-right: 100px solid transparent; }
+
+.triangle-topleft2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 100px solid #757575;
+  border-right: 100px solid transparent; }
+
+.triangle-topleft3 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 100px solid #01b0b9;
+  border-right: 100px solid transparent; }
+
+.rout {
+  position: absolute;
+  left: 7px;
+  top: 30px;
+  transform: rotate(-48deg);
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal; }
+
+/*# sourceMappingURL=index.css.map */
